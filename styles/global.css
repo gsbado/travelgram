@@ -15,13 +15,33 @@
 
   --font-family: "Poppins", sans-serif;
   --text-lg: bold 32px/125% var(--font-family);
-  --text: regular 16px/1.5 var(--font-family);
-  --text-md: regular 14px/170% var(--font-family);
-  --text-sm: regular 12px/170% var(--font-family);
+  --text: normal 16px/1.5 var(--font-family);
+  --text-md: normal 14px/170% var(--font-family);
+  --text-sm: normal 12px/170% var(--font-family);
 }
 
 body {
-  font: var(--text-lg);
+  font: var(--text);
   color: var(--text-color-secondary);
   background-color: var(--background-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+
+.container {
+  padding-inline: 32px;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.bg-surface-color {
+  background-color: var(--surface-color);
 }
