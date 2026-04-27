@@ -1,5 +1,5 @@
 # Travelgram
-A travel profile page built using semantic HTML and CSS.
+A travel profile page developed with semantic HTML and CSS, inspired by social networks to share experiences, photos, and visited destinations. The project simulates a personal profile with information, images, and navigation, focused on learning and practicing HTML and CSS techniques.
 
 ## 🛠️ Technologies Used
 - HTML5
@@ -20,4 +20,5 @@ Images and icons are stored in the `assets/` folder.
 This project is for educational purposes.
 
 ## 🖥️ Preview
-> Examples of the project interface.
+![Travelgram page](src/assets/preview.png)
+> Example of the project interface.
