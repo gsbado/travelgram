@@ -20,5 +20,5 @@ Images and icons are stored in the `assets/` folder.
 This project is for educational purposes.
 
 ## 🖥️ Preview
-![Travelgram page](src/assets/preview.png)
+![Travelgram page](assets/preview.png)
 > Example of the project interface.
